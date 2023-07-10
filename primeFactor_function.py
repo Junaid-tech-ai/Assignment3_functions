@@ -3,12 +3,12 @@
 # original number. e.g. prime factors of 15 are 5 and 3.
 factorsList=[]
 def primeFactor(x):
-    for i in range(1,x+1):
+    for i in range(2,x):
         if x%i==0:
             print(i)
             factorsList.append(i)
     print(factorsList)
 
-x=50
+x=15
 
 primeFactor(x)
