@@ -9,4 +9,4 @@ def multiple_integers(num1,num2):
         return True
     else:
         return False
-print( ""multiple_integers(num1,num2))
+print(multiple_integers(num1,num2))
