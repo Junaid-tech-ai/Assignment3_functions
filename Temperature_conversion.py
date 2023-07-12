@@ -29,5 +29,5 @@ def print_temperature_chart():
         celsius = fahrenheit_to_celsius(fahrenheit)
         print(f"{fahrenheit}\t{celsius}")
 
-# Run the program
+
 print_temperature_chart()
