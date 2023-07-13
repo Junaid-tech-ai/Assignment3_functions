@@ -17,21 +17,21 @@ def fahrenheit_to_celsius(fahrenheit):
     return celsius
 
 
-def print_temperature_chart():
-
-    print("Celsius\tFahrenheit")
-    for celsius in range(0, 101):
-        fahrenheit = celsius_to_fahrenheit(celsius)
-        print(f"{celsius}\t\t{fahrenheit}")
 
 
-    print("Fahrenheit\tCelsius")
-    for fahrenheit in range(32, 213):
-        celsius = fahrenheit_to_celsius(fahrenheit)
-        print(f"{fahrenheit}\t\t{celsius}")
+print("Celsius\tFahrenheit")
+for celsius in range(0, 101):
+    fahrenheit = celsius_to_fahrenheit(celsius)
+    print(f"{celsius}\t\t{fahrenheit}")
 
 
-print_temperature_chart()
+print("Fahrenheit\tCelsius")
+for fahrenheit in range(32, 213):
+    celsius = fahrenheit_to_celsius(fahrenheit)
+    print(f"{fahrenheit}\t\t{celsius}")
+
+
+
 
 
 
