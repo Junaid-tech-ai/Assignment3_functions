@@ -16,18 +16,22 @@ def fahrenheit_to_celsius(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
     return celsius
 
+
 def print_temperature_chart():
-    print("Celsius to Fahrenheit Conversion Chart:")
+
     print("Celsius\tFahrenheit")
     for celsius in range(0, 101):
         fahrenheit = celsius_to_fahrenheit(celsius)
-        print(f"{celsius}\t{fahrenheit}")
+        print(f"{celsius}\t\t{fahrenheit}")
 
-    print("\nFahrenheit to Celsius Conversion Chart:")
+
     print("Fahrenheit\tCelsius")
     for fahrenheit in range(32, 213):
         celsius = fahrenheit_to_celsius(fahrenheit)
-        print(f"{fahrenheit}\t{celsius}")
+        print(f"{fahrenheit}\t\t{celsius}")
 
 
 print_temperature_chart()
+
+
+
